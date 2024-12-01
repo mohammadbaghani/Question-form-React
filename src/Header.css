@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1200px) {
+    .link-image {
+        display: none;
+    }
+
+    .button-register {
+        font-family: 'IRY' !important;
+        font-weight: 400 !important;
+        color: #ffffff !important;
+        transform: scale(1.05);
+        background-color: initial;
+        width: 105px;
+        height: 39px;
+        position: absolute;
+        right: 808px !important;
+        top: 25px !important;
+        margin-left: auto;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 6px !important;
+        border: none;
+        transition: all .2s ease;
+    }
+
+    .button-register:active {
+        transform: scale(.94);
+    }
+
+    .button-register:hover {
+        transition: all .2s ease;
+        border: 1px solid rgb(68, 70, 70);
+        background-color: #4a5053 !important;
+        color: #ffffff !important;
+    }
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 224px;
+        position: fixed;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px !important;
+        z-index: 66666 !important;
+        height: 100px !important;
+        top: 0px;
+        padding-top: 40px !important;
+        width: 1240px;
+        margin-right: -513px;
+        padding-right: 96px;
+        margin-bottom: -15px;
+        height: 100px;
+        background-color: transparent;
+    }
+
+    .navbrand:hover {
+        border-radius: 8px;
+        color: #ffffff !important;
+        background-color: #4079a8;
+        filter: sepia(0%);
+    }
+
+    .container {
+        top: 65px;
+        margin-left: auto;
+        max-width: none;
+        margin-right: auto;
+        display: block;
+    }
+
+    .container-valed-navbar {
+        width: 200px !important;
+        position: relative !important;
+    }
+
+    .valed-navbar {
+        width: 200px !important;
+        position: absolute !important;
+    }
+
+    .nav::after {
+        filter: blur(1px);
+        border-radius: 12px;
+        content: '';
+        margin-left: 0px !important;
+        background-color: #222527!important;
+        border-radius: 2px;
+        display: flex;
+        font-size: 15px;
+        height: 88px;
+        justify-content: space-between;
+        margin-right: -674px !important;
+        padding: 25px 121px 0 434px;
+        position: fixed;
+        top: -1px;
+        transition: all .4s;
+        width: 1990px;
+        z-index: -1 !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .css-1ontqvh {
+        list-style: none !important;
+        margin: 0px !important;
+        padding: 8px 0px !important;
+        position: relative !important;
+        right: -2px !important;
+        top: -9px !important;
+    }
+    .button-register {   
+        font-size: 14px;
+        margin: 51px 51px 51px auto;
+        padding: 3px 4px;
+        text-align: center;
+        top: -33px !important;
+        transform: scale(1);
+        width: 96px;
+        position: absolute;
+        right: 544px !important;
+    }
+    .button-register:active {
+        transform: scale(.94);
+    }
+    .button-register:hover {
+        transition: all .1s ease;
+        border: 1px solid rgb(255, 255, 255);
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'dana';
+        font-weight: 400 !important;
+        background-color: rgb(2, 0, 145);
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        text-decoration: none;
+        font-weight: bolder;
+        z-index: 66666 !important;
+        top: 4px;
+        width: 1163px;
+        padding-top: 19px;
+        padding-right: 524px;
+        right: 500px;
+        
+    }
+    .container {
+        top: 65px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 224px;
+        position: fixed;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px !important;
+        z-index: 1;
+        height: 105px !important;
+        top: 0px;
+        padding-top: 16px !important;
+        width: 1185px;
+        margin-right: -513px;
+        padding-right: 96px;
+        margin-bottom: -15px;
+        height: 100px;
+    }
+    .button-register {
+        color: rgb(255, 245, 245);
+        width: 120px;
+        height: 50px;
+        background-color: #0c53bd;
+        position: fixed;
+        z-index: 30;
+        left: 1px;
+        top: 93px !important;
+        margin: 51px;
+        padding: 3px 4px;
+        border-radius: 8px !important;
+        margin-left: auto;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'dana';
+        font-weight: 400 !important;
+        transform: scale(.85) !important;
+        border: 2px solid rgb(234, 243, 241);
+    }
+  }
+
+
+@media only screen and (min-width: 1200px) {
+    .css-ptdwpq-MuiPaper-root-MuiAppBar-root{
+    position: relative;top: 30px;background-color: red !important;
+}
+}
