@@ -193,6 +193,6 @@
 
 @media only screen and (min-width: 1200px) {
     .css-ptdwpq-MuiPaper-root-MuiAppBar-root{
-    position: relative;top: 30px;background-color: red !important;
+    position: relative;top: 30px;  background-color: transparent!important;
 }
 }

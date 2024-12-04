@@ -101,11 +101,22 @@ export default function App() {
   const [ratingone, setRatingone] = useState(0);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [hoverone, setHoverone] = useState(0);
-  const [show,  setShow] = useState(false);
+  const [show, setShow] = useState(false);
   const [A, setA] = useState([]);
   const [B, setB] = useState([]);
   const [C, setC] = useState([]);
+  function chartshow() {
+    setShow('true')
+
+  }
+  function charthide() {
+    setShow(false)
+
+  }
   function todoTitleHandler(event) {
+    if (C.length === 4) {
+      setShow('true')
+    }
     let newTodoObject = {
       id: A.length + 1,
       title: event.target.value,
@@ -118,8 +129,8 @@ export default function App() {
     setB(parsedItem);
   }
   function r(event) {
-    if(C.length===4){
-    setShow('true')
+    if (C.length === 4) {
+      setShow('true')
     }
 
     let empty = {
@@ -146,12 +157,12 @@ export default function App() {
     onClick = { toSlide }
     ref = { buttonRef }
   };
-function prompt(){
-  for (var i = 0; i < 4; i++) {        
-         
- alert('g')
+  function prompt() {
+    for (var i = 0; i < 4; i++) {
+
+      alert('g')
+    }
   }
-}
   useEffect(() => {
     localStorage.setItem("name", JSON.stringify(A));
   }, [A]);
@@ -160,11 +171,8 @@ function prompt(){
       <hr className='hr'>
       </hr>
       <Container maxWidth="xl">
-
         <Box sx={{ maxWidth: 400 }}>
           <Stepper activeStep={activeStep} orientation="vertical" maxWidth="xl">
-
-
 
             {steps.map((step, index) => (
               <Step key={step.label}>
@@ -180,11 +188,6 @@ function prompt(){
 
               </Step>
             ))}
-
-
-
-
-
 
           </Stepper>
 
@@ -205,16 +208,9 @@ function prompt(){
         modules={[FreeMode, Navigation, Thumbs, A11y, Pagination]}
         className="mySwiper2"
 
-
-
-
         slidesPerView="auto"
       >
-
-
         <SwiperSlide>
-
-
 
           <div className="register-body"  >
             <li className='moshakhasat  title-info'>
@@ -251,25 +247,18 @@ function prompt(){
               </form>
             </div>
 
-
-
           </div >
-
-
 
         </SwiperSlide>
         <SwiperSlide>
           <div className="App">
 
-
-
             <h1 className='myh'
-            >             اطلاعات 
+            >             اطلاعات
               شما در حسابداری چه میزان است؟
 
 
             </h1>
-
 
             <div>
               {
@@ -329,13 +318,20 @@ function prompt(){
           <div className='containerinput'>
 
 
-{/* <button onClick={prompt}className="cent-btn">
-  شروع
-</button> */}
+            <button onClick={charthide} className={show ? 'cent-btn ' : 'cent-btn  hiddenbtn '}>
+            نمایش جدول
+ 
+            </button>
+            <button onClick={chartshow} className={show ? 'cent-btn hiddenbtn ' : 'cent-btn '}>
+         
+            نمایش نمودار
 
-            <form  
-            
-            className={show?"all-todos hide" :"all-todos"}>
+            </button>
+    
+
+            <form
+
+              className={show ? "all-todos hide" : "all-todos"}>
 
               <div className="select">
                 <select name="todos" className="filter-todo" onChange={todoTitleHandler}>
@@ -343,16 +339,15 @@ function prompt(){
                   <option className="option-todo" value="عمومی">عمومی</option>
                   <option value="حسابداری" className="option-todo">حسابداری</option>
                   <option className="option-todo" value="گزارشات">گزارشات</option>
-
                 </select>
               </div>
             </form>
 
 
-            <form      
-            
-           
-            className={show?"left-all hide" :"left-all"}>
+            <form
+
+
+              className={show ? "left-all hide" : "left-all"}>
 
 
 
@@ -368,8 +363,8 @@ function prompt(){
 
                 </select>
               </div>
-           
-           
+
+
             </form>
 
 
@@ -377,12 +372,12 @@ function prompt(){
             <div className="todo-container">
 
 
-              <ul     
-              
-                         
-            className={show?"todo-list hide" :"todo-list"}>
-              
-            
+              <ul
+
+
+                className={show ? "todo-list hide" : "todo-list"}>
+
+
 
 
                 <Table striped bordered hover>
@@ -409,7 +404,7 @@ function prompt(){
 
 
 
-              <div className={show?"vvvv" :"vvvv hide"}>
+              <div className={show ? "vvvv" : "vvvv hide"}>
 
                 <Chart {...C[0]} {...B[0]} />
 

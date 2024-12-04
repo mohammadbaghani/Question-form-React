@@ -603,20 +603,20 @@ padding:3px 0px!important;
     justify-content: center;
     background-color: #191c1f !important;
     transform: scale(.9) !important;
-    background-color: #0f4b7c!important;
-    background-color: #041b2e!important;
+    background-color: #082483!important;
 
-    outline: 1px solid #858d94!important;
+
+    outline: 1px solid #196db8!important;
 
   }
 
   .form-enter:hover {
     transition: all .0002s !important;
-    background-color: #041b2e!important;
+    background-color: #0d2a7a!important;
   }
 
   .form-enter:active {
-    transform:scale(.9955)!important;
+    transform:scale(.8955)!important;
     transition: all .005s !important;
 
   }

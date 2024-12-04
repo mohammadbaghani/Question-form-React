@@ -1253,7 +1253,7 @@ header {
 
     .select::after,
     select {
-        height: 20px !important
+        height: 20px !important;
     }
 
     .containerinput {
@@ -1269,9 +1269,15 @@ header {
 
     }
 .cent-btn{
-    position: absolute;top: 700px;
-    width: 200px;
-    background-color: red;margin-left: auto;margin-right: auto;right: 0px;left: 0px;
+    position: absolute;top: 1170px;font-family: 'reg';transition: all 1.4s;
+    width: 130px;height:45px;border-radius: 7px;z-index: 44444444444;font-size: 16px;
+    background-color: rgb(10, 43, 114);margin-left: auto;margin-right: auto;right: 0px;left: 0px;
+}
+.hiddenbtn{
+    display: none;
+}
+.chartshow{    position: absolute!important;top: 1300px!important;
+
 }
     .fa-check:before {
         content: "\f00c"

@@ -195,7 +195,7 @@ background-color: transparent;
   margin-top: 30px;
   transition: all .5s;
   position: relative;
-  top: 0px;
+  top: -30px;
   z-index: 2222222222;
   margin-right: auto;
   margin-left: auto;
@@ -214,7 +214,7 @@ background-color: transparent;
   margin-top: 30px;
   transition: all .5s;
   position: relative;
-  top: -720px;
+  top: -750px;
   z-index: 2222222222;
   display: flex;
   justify-content: space-between;
@@ -280,12 +280,12 @@ left: -125px;
 .css-fv1b65-MuiStepper-root {
   position: absolute !important;
 bottom: 120px !important;
-  z-index: 33333 !important;left: 20px!important;
-right: -120px!important;
+  z-index: 33333 !important;left: 0px!important;
+right: 0px!important;
   width: 70% !important;display: flex!important;
   justify-content: center!important;margin-right: auto!important;
   align-items: center!important;margin-left: auto!important;
-  top: 770px!important;
+  top: 690px!important;
 
   
 }
@@ -297,7 +297,7 @@ right: -120px!important;
   width: 12%;
   position: relative;
   height: .7px;
-  top: 650px;
+  top: 620px;
   z-index: 3333333333333;
 
 }
@@ -357,7 +357,7 @@ font-family: 'dana'!important;
 
 
   width: 70px !important;
-  background-color: #052036!important;
+  background-color: #103c8d!important;
 border-radius: 0px!important;
   border-bottom-right-radius: 13px !important;
   border-top-right-radius: 13px !important;
@@ -469,7 +469,7 @@ padding-top: 27px!important;
   position: absolute!important;
   z-index: 444444!important;
   height:0px!important;display: flex!important;
-  background-color: red!important;
+  background-color: transparent!important;
   top: -148px!important;padding-top:70px!important;
   right: 0px;width: 100%!important;box-shadow: none !important;
 }
