@@ -12,12 +12,12 @@ Technologies:
 
 
 
-![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-star.png)
+![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-chart.png)
 
 <br>
 </br>    
 
-![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-chart.png)
+![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-star.png)
 <br>
 </br>    
 
