@@ -22,7 +22,7 @@ Technologies:
 <br>
 </br>    
 
-![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-star.png)
+![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-star.png)
 
 
 
