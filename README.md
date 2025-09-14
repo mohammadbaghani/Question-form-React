@@ -6,23 +6,22 @@ Technologies:
 </br>
 
 
-
-فرم پرسش با React JS زدم
-
-
-
+فرم پرسش ( مانند سایت پرس لاین ) با React JS زدم
 <br>
 </br>  
+
+
+
+![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-star.png)
+
+<br>
+</br>    
 
 ![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-chart.png)
 <br>
 </br>    
 
 ![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form.png)
-<br>
-</br>    
-
-![alt text](https://github.com/mohammadbaghani/Question-form-React/blob/main/src/public/fonts/question-form-star.png)
 
 
 
