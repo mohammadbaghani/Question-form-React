@@ -1,12 +1,9 @@
 Question Foem by React JS
 <br>
 </br>
-Technologies:
-<br>
-</br>
 
 
-فرم پرسش ( مانند سایت پرس لاین ) با React JS زدم
+فرم پرسش مانند سایت پرس لاین با React زدم
 <br>
 </br>  
 
